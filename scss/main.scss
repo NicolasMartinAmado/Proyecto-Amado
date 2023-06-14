@@ -396,14 +396,9 @@ color: rgb(76, 231, 123);
     font-weight: bold;
     font-family: bo2;
     color: white;
-
-
     background-position: right;
     align-items: center;
     background-size: contain;
-
-
-
 }
 
 .predio {
@@ -436,19 +431,15 @@ background-attachment: fixed;
 background-size: cover;
 width: 100%;
 height: 100%;
-
-
     }
     .info_predios_body{
         align-items: center;
         align-content: center;
         align-self: center;
-        & h5{
-           
+        & h5{ 
         text-align: center;
         }
-        & p{
-            
+        & p{  
             text-align: center;
         }
           }
@@ -484,9 +475,6 @@ text-align: center;
 .card-body .localimg{
     height: 130px;
     object-fit: cover;
-  
-    
-   
 }
 
 .sucursales{
@@ -496,8 +484,7 @@ text-align: center;
     & img{
         width: 100%;
         height: 300px;
-    }
-    
+    } 
 }
 
 
@@ -507,7 +494,6 @@ text-align: center;
     background-image: url(../IMG/mmm.jpg);
     font-family: BO2;
     font-size: 28px;
-
     margin-top: 60px;
 
 }
