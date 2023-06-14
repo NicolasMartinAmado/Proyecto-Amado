@@ -1,0 +1,148 @@
+/*LOGRO*/
+
+.videologro {
+    display: flex;
+
+
+}
+
+.logrito {
+    display: flex;
+
+    color: white;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: bo2;
+    gap: 10px;
+}
+
+.titulogro {
+    text-align: center;
+    color: rgb(105, 130, 201);
+    background-color: wheat;
+    font-family: BO2;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.fotoslogros {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.bodylogros {
+
+    background-image: url(../IMG/llpff.jpg);
+
+   
+    margin: 0;
+    padding: 0;
+   
+}
+
+.logro {
+
+    padding: 10px;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+
+
+
+
+}
+
+.logro img {
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+    background-attachment: fixed;
+    background-size: cover;
+
+&:hover{
+    transform: scale(1.05);
+    transition: .8s;
+}
+
+}
+
+
+.messilogro {
+    background-color: rgb(70, 6, 6);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 50px;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bolder;
+}
+.fotoslogros {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    animation-name: animacionlogro;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-duration: 3s;
+    transform: translate(0);
+   
+}
+@keyframes animacionlogro {
+    0% {
+transform: translate(-150%);
+opacity: 0;
+}
+100%{
+opacity: 1;
+}
+}
+
+.fotos_logros_1986 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    animation-name: animacionlogros1986;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-duration: 4.2s;
+    transform: translate(0);
+   
+}
+@keyframes animacionlogros1986 {
+    0% {
+transform: translate(-150%);
+opacity: 0;
+}
+100%{
+opacity: 1;
+}
+}
+
+.logros_2 {
+    background-color: rgb(70, 6, 6);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 50px;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+
+

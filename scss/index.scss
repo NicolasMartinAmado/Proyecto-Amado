@@ -1,0 +1,183 @@
+
+.bienvenida {
+    margin-top: 30px;
+    color: rgb(105, 130, 201);
+    text-align: center;
+    background-color: wheat;
+    font-family: BO2;
+
+
+}
+.bod {
+    
+
+  background-image: url(../IMG/llpff.jpg);
+
+    margin: 0;
+    padding: 0;
+    
+
+    background-size: cover;
+
+  
+
+
+
+
+}.cajas {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+
+
+    padding: 50px;
+}
+
+
+
+.caja img {
+    width: 290px;
+    height: 310px;
+    border: black solid 8px;
+
+
+}
+
+
+
+
+.c1:hover {
+
+    object-fit: cover;
+    background-attachment: fixed;
+    transition: .9s;
+
+
+    transform: scale(1.2);
+}
+
+.c2:hover {
+
+    object-fit: cover;
+    background-attachment: fixed;
+    transition: 0.9s;
+
+    transform: scale(1.2);
+}
+
+.c3:hover {
+
+    object-fit: cover;
+    background-attachment: fixed;
+    transition: 0.9s;
+
+    transform: scale(1.2);
+}
+
+.c4:hover {
+
+    object-fit: cover;
+    background-attachment: fixed;
+    transition: 0.9s;
+
+    transform: scale(1.2);
+
+}
+.videopresentacion {
+    display: grid;
+
+
+
+    margin-top: 80px;
+    color: rgb(255, 255, 255);
+    font-size: 20PX;
+    font-family: bo2;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    
+
+
+}
+.prf {
+    background-image: url(../IMG/mmm.jpg);
+    text-align: center;
+}
+
+.vid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 900px;
+    height: 450px;
+}
+.noticias {
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-image: url(../IMG/mmm.jpg);
+    font-family: BO2;
+  
+    
+
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+width: 100%;
+height: 100%;
+   
+}
+
+.card-body {
+    background-image: url(../IMG/mmm.jpg);
+    text-align: center;
+
+    
+
+
+}
+
+.card-body a {
+    display: grid;
+
+
+}
+
+
+
+
+.card img {
+    width: 100%;
+    height: 200px;
+    background-attachment: fixed;
+    
+}
+
+.titulo__sponsor {
+    color: rgb(105, 130, 201);
+    text-align: center;
+    background-color: wheat;
+    font-family: BO2;
+    margin-top: 100px;
+
+}
+
+.sponsors {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 90px;
+
+}
+.sponsors img{
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+.sponsors li {
+    text-decoration: none;
+
+}

@@ -1,0 +1,132 @@
+/*PRODUCTO*/
+@import "utilities.scss";
+
+.productobody {
+    background-color: rgb(0, 0, 0);
+    background-image: url(../IMG/llpff.jpg);
+    
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+
+.tituloproducto {
+    color: rgb(105, 130, 201);
+    text-align: center;
+    background-color: wheat;
+    font-family: BO2;
+    margin-top: 30px;
+
+}
+
+
+.fotos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: transparent;
+
+}
+
+.compro:hover {
+
+    background-color: rgb(202, 46, 46);
+    font-weight: bolder;
+
+
+}
+
+
+.foto:hover {
+
+    color: rgb(255, 255, 255);
+    background-image: url(../IMG/llpff.jpg);
+    background-attachment: scroll;
+    background-position: center;
+    font-size: 12px;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder
+}
+
+
+.foto {
+
+    padding: 10px;
+    background-attachment: fixed;
+
+
+
+
+}
+
+.foto img {
+    @include img (100%, 400px, fixed, cover);
+    background-size: cover;
+
+
+}
+
+.camisetastitulo {
+    background-color: rgb(70, 6, 6);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 50px;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+}
+
+/*PRODUCTO BUZOS*/
+
+
+.buzos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+color: transparent;
+}
+
+.buzo {
+
+    padding: 10px;
+    background-attachment: fixed;
+
+
+
+}
+
+.buzo img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    background-attachment: fixed;
+    background-size: cover;
+
+
+}
+
+.buzostitulo {
+    background-color: rgb(70, 6, 6);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 50px;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+}
+
+.buzo:hover {
+
+    color: rgb(255, 255, 255);
+    background-image: url(../IMG/llpff.jpg);
+    font-size: 12px;
+    background-attachment: scroll;
+    background-position: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder
+}
