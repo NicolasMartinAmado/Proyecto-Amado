@@ -76,6 +76,14 @@
         align-self: center;
         align-content: center;
     }
+    .fotos_logros_JJOO{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        align-self: center;
+        align-content: center;
+    }
     .bodylogros {
         background-image: url(../IMG/llpff.jpg); 
         margin: 0;
@@ -629,6 +637,12 @@ background-attachment: fixed;
         gap: 20px;
         align-content: center;
     }
+    .otras_noticias {
+        display: grid;
+        grid-template-columns: repeat(2, 4fr);
+        gap: 20px;
+        align-content: center;
+    }
     .menu {
         flex-direction: column;
     }
@@ -737,9 +751,7 @@ background-attachment: fixed;
     .titulogro{
         font-size: 22px;
     }
- 
-  
-  
+
     .logrito {
         display: flex;
         flex-direction: column;

@@ -2,8 +2,6 @@
 
 .videologro {
     display: flex;
-
-
 }
 
 .logrito {
@@ -36,30 +34,22 @@
 
 
 .bodylogros {
-
     background-image: url(../IMG/llpff.jpg);
-
-   
     margin: 0;
     padding: 0;
    
 }
 
 .logro {
-
     padding: 10px;
     background-attachment: fixed;
     margin: 0;
     padding: 0;
-
-
-
-
 }
 
 .logro img {
-    width: 500px;
-    height: 400px;
+    width: 460px;
+    height: 370px;
     object-fit: cover;
     background-attachment: fixed;
     background-size: cover;
@@ -123,7 +113,26 @@ opacity: 0;
 opacity: 1;
 }
 }
-
+.fotos_logros_JJOO {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    animation-name: animacionlogrosJJOO;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-duration: 5.2s;
+    transform: translate(0);
+   
+}
+@keyframes animacionlogrosJJOO {
+    0% {
+transform: translate(-150%);
+opacity: 0;
+}
+100%{
+opacity: 1;
+}
+}
 .logros_2 {
     background-color: rgb(70, 6, 6);
     padding-top: 5px;

@@ -178,7 +178,13 @@ footer .redes a img {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  height: 100%;
+  gap: 10px;
+}
+
+.otras_noticias {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
 }
 
 .card-body {
@@ -188,6 +194,10 @@ footer .redes a img {
 
 .card-body a {
   display: grid;
+}
+
+.card {
+  width: 100%;
 }
 
 .card img {
@@ -427,6 +437,14 @@ footer .redes a img {
     gap: 30px;
   }
   .fotos_logros_1986 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+  }
+  .fotos_logros_JJOO {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -904,6 +922,12 @@ footer .redes a img {
     gap: 20px;
     align-content: center;
   }
+  .otras_noticias {
+    display: grid;
+    grid-template-columns: repeat(2, 4fr);
+    gap: 20px;
+    align-content: center;
+  }
   .menu {
     flex-direction: column;
   }
@@ -1255,8 +1279,8 @@ footer .redes a img {
 }
 
 .logro img {
-  width: 500px;
-  height: 400px;
+  width: 460px;
+  height: 370px;
   object-fit: cover;
   background-attachment: fixed;
   background-size: cover;
@@ -1309,6 +1333,26 @@ footer .redes a img {
 }
 
 @keyframes animacionlogros1986 {
+  0% {
+    transform: translate(-150%);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fotos_logros_JJOO {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  animation-name: animacionlogrosJJOO;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-duration: 5.2s;
+  transform: translate(0);
+}
+
+@keyframes animacionlogrosJJOO {
   0% {
     transform: translate(-150%);
     opacity: 0;
@@ -1747,8 +1791,8 @@ footer .redes a img {
 }
 
 .card-body .localimg {
-  height: 130px;
-  object-fit: cover;
+  height: 160px;
+  width: 100%;
 }
 
 .sucursales {
