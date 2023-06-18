@@ -1814,4 +1814,22 @@ footer .redes a img {
   margin-top: 60px;
 }
 
+.contacto_afa img {
+  width: 200px;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+}
+
+.contacto_afa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+}
+
 /*# sourceMappingURL=master.css.map */
